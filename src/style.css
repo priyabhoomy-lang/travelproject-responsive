@@ -19,7 +19,8 @@ body {
 
 .img-responsive {
   width: 100%;
-  display: block;
+  max-height: 100%;
+  vertical-align: middle;
 }
 
 .grid-2-columns {
@@ -86,7 +87,7 @@ section.secondary {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/lisbon.png");
+    url("../images/city.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
